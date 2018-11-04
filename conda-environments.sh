@@ -1,1 +1,1 @@
-conda env create --file=tensorflow-gpu.yaml
+conda env create --file=tensorflow-gpu.yml
