@@ -1,0 +1,8 @@
+# added by Anaconda3 installer
+export PATH="~/anaconda3/bin:$PATH"
+export KAGGLE_USER="rdcmdev"
+export KAGGLE_TOKEN="1a56840b7ea2ec2a9152cf32b69e07c5"
+
+. ~/anaconda3/etc/profile.d/conda.sh
+python ~/MEGA/pc-setup/disable_touchscreen.py
+export BASH_IT_THEME='doubletime'
