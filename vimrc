@@ -1,9 +1,9 @@
 set nowrap
 set number
-colorscheme molokai
+syntax enable
+colorscheme monokai
 map <C-L> 10zl
 map <C-H> 10zh 
-filetype plugin indent on
 set tabstop=4
 set shiftwidth=4
 set expandtab
