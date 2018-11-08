@@ -1,1 +1,5 @@
-colorscheme molokai
+command evince evince *.{pdf} &
+filetype *.pdf evince
+colorscheme istib-solarized-dark.vifm
+only
+split
