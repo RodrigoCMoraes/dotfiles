@@ -1,19 +1,13 @@
-"vundle: init
-set nocompatible              " be iMproved, required
-filetype off                  " required
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-fugitive'
-Plugin 'git://git.wincent.com/command-t.git'
-Plugin 'file:///home/gmarik/path/to/plugin'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-call vundle#end()            " required
-filetype plugin indent on    " required
-"vundle: end
+"keymap
+filetype on
+autocmd filetype tex nnoremap <F5> :w <BAR> :!make; mupdf main.pdf & disown <CR>
+autocmd filetype tex nnoremap <F6> :w <BAR> :!make clean;
 
+"myself
 set nowrap
-set number
+set rnu
+
+"monokai theme
 syntax enable
 colorscheme monokai
 map <C-L> 10zl
@@ -30,6 +24,7 @@ hi CursorLine cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 set cursorcolumn
 hi CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 
-"wakatime: init
-Plugin 'wakatime/vim-wakatime'
-"wakatime: end
+"live-preview-latex
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
