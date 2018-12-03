@@ -1,0 +1,31 @@
+[global_config]
+  borderless = True
+  suppress_multiple_term_dialog = True
+  window_state = fullscreen
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = True
+      last_active_term = ae0735eb-7a19-43dd-8df2-2eb838128881
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 623:304
+      size = 654, 427
+      title = False
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = default
+      type = Terminal
+      uuid = ae0735eb-7a19-43dd-8df2-2eb838128881
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#aaaaaa"
+    icon_bell = False
+    scrollbar_position = hidden
+    show_titlebar = False
