@@ -5,4 +5,5 @@ export PATH="~/anaconda3/bin:$PATH"
 python ~/MEGA/pc-setup/disable_touchscreen.py
 export BASH_IT_THEME='doubletime'
 tmux new-session -A -s main
+set -o vi
 clear
