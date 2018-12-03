@@ -4,8 +4,10 @@ map <C-H> 10zh      "CTRL+h moves 10 columns to left
 
 "keymap - tex files
 filetype on         "enable filetype detection
-autocmd filetype tex nnoremap <F5> :w <BAR> :!make; mupdf main.pdf & disown <CR> "save, compile and show pdf in tex files
-autocmd filetype tex nnoremap <F6> :w <BAR> :!make clean;                        "save and clean tex compilation files
+"save, compile and show pdf in tex files
+autocmd filetype tex nnoremap <F5> :w <BAR> :!make; mupdf main.pdf & disown <CR> 
+"save and clean tex compilation files
+autocmd filetype tex nnoremap <F6> :w <BAR> :!make clean;                        
 filetype off         "disable filetype detection
 
 "edit setting
