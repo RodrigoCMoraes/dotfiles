@@ -12,3 +12,4 @@ cp -f monokai.vim ~/.vim/colors/
 cp -f vimrc ~/.vimrc
 cp -f vifmrc ~/.config/vifm/
 cp -f vifmrc ~/.vifm/vifmrc
+cp -f tmux.conf ~/.tmux.conf
