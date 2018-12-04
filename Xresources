@@ -39,3 +39,8 @@ xterm*ScrollBar: true
 
 ! stop output to terminal from jumping down to bottom of scroll again
 xterm*scrollTtyOutput: false
+
+! Start with maximized window
+xterm*fullscreen: true
+
+xterm*vt100.scrollBar: false
