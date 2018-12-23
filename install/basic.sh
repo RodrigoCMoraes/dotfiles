@@ -8,7 +8,8 @@ sudo apt-get install -y \
     linux-headers-$(uname -r) \
     openssh-client \
     openssh-server \
-    rsync
+    rsync \
+    htop
 sudo apt-get install -f -y
 sudo apt-get autoremove -y
 sudo apt-get update -y

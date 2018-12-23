@@ -9,6 +9,7 @@ call vundle#begin()
     Plugin 'vim-airline/vim-airline'
     Plugin 'vim-airline/vim-airline-themes'
     Plugin 'davidhalter/jedi-vim'
+    Bundle 'christoomey/vim-tmux-navigator'
 call vundle#end()
 filetype plugin indent on
 
