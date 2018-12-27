@@ -1,1 +1,4 @@
 *.deb
+*-deb
+*.swp
+*.swo
