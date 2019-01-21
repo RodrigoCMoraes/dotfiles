@@ -1,25 +1,23 @@
+" vim-plug configuration
 call plug#begin('~/.vim/plugged')
-
-Plug 'lfv89/vim-interestingwords'
-
+    Plug 'lfv89/vim-interestingwords'
 call plug#end()
 
-set nocompatible              " be iMproved, required
+" vundle configuration
+set nocompatible
 filetype off                  
-
-" set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'davidhalter/jedi-vim'
-Plug 'lfv89/vim-interestingwords'
-Plugin 'christoomey/vim-tmux-navigator'
-Plugin 'tpope/vim-surround'
-Plugin 'elzr/vim-json'
-Plugin 'posva/vim-vue'
-Plugin 'wakatime/vim-wakatime'
-
+    Plugin 'VundleVim/Vundle.vim'
+    Plugin 'davidhalter/jedi-vim'
+    Plug 'lfv89/vim-interestingwords'
+    Plugin 'christoomey/vim-tmux-navigator'
+    Plugin 'tpope/vim-surround'
+    Plugin 'elzr/vim-json'
+    Plugin 'posva/vim-vue'
+    Plugin 'wakatime/vim-wakatime'
+    Plugin 'scrooloose/nerdtree'
+    Plugin 'Xuyuanp/nerdtree-git-plugin'
 call vundle#end()            
 filetype plugin indent on   
 
@@ -29,13 +27,8 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
-"keymap - tex files
-filetype on         "enable filetype detection
-"save, compile and show pdf in tex files
-autocmd filetype tex nnoremap <F5> :w <BAR> :!make; mupdf main.pdf & disown <CR> 
-"save and clean tex compilation files
-autocmd filetype tex nnoremap <F6> :w <BAR> :!make clean;                        
-filetype off         "disable filetype detection
+"avoid creation of swap files
+set noswapfile
 
 "edit setting
 set nowrap          "lines can be greater than shell width(maybe necessary to scroll horizontally)
@@ -57,17 +50,10 @@ set title           "show filename as title of status bar
 set ruler           "enabe ruler of status bar
 set rulerformat=%55(%{strftime('%a\ %b\ %e\ %I:%M\ %p')}\ %5l,%-6(%c%V%)\ %P%) "show date and time in status bar"
 
-let g:netrw_banner = 0
-let g:netrw_liststyle = 3
-let g:netrw_browse_split = 4
-let g:netrw_altv = 1
-let g:netrw_winsize = 25
-augroup ProjectDrawer
-    autocmd!
-    autocmd VimEnter * :Vexplore
-augroup END
-
+"enable vim resize with mouse
 set mouse+=a
 if &term =~ '^screen'
     set ttymouse=xterm2
 endif
+
+map <C-n> :NERDTreeToggle<CR>
