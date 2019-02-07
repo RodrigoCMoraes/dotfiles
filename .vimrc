@@ -13,11 +13,10 @@ call vundle#begin()
     Plug 'lfv89/vim-interestingwords'
     Plugin 'christoomey/vim-tmux-navigator'
     Plugin 'tpope/vim-surround'
-    Plugin 'elzr/vim-json'
-    Plugin 'posva/vim-vue'
     Plugin 'wakatime/vim-wakatime'
     Plugin 'scrooloose/nerdtree'
     Plugin 'Xuyuanp/nerdtree-git-plugin'
+    Plugin 'Chiel92/vim-autoformat'
 call vundle#end()            
 filetype plugin indent on   
 
@@ -26,6 +25,8 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+imap jk <Esc>
+imap kj <Esc>
 
 "avoid creation of swap files
 set noswapfile
@@ -57,3 +58,10 @@ if &term =~ '^screen'
 endif
 
 map <C-n> :NERDTreeToggle<CR>
+
+set foldmethod=indent
+" Keep all folds open when a file is opened
+augroup OpenAllFoldsOnFileOpen
+    autocmd!
+    autocmd BufRead * normal zR
+augroup END

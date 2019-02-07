@@ -11,524 +11,950 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/utf
+~MSle0~/Factory
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1545606230,,"x"
+|2,0,1549544281,,"x"
 :w
-|2,0,1545606225,,"w"
+|2,0,1549544178,,"w"
 :q
-|2,0,1545606188,,"q"
-:vsp ~/Google\ Drive/projetos/pc-setup/config/.bashrc
-|2,0,1545606169,,"vsp ~/Google\\ Drive/projetos/pc-setup/config/.bashrc"
-:q!
-|2,0,1545605819,,"q!"
-:vsp
-|2,0,1545605764,,"vsp"
-:PluginInstall
-|2,0,1545605228,,"PluginInstall"
+|2,0,1549542544,,"q"
+:z
+|2,0,1549542541,,"z"
+:e src/lib/params.py
+|2,0,1549455647,,"e src/lib/params.py"
+:e src/lib/filters/abstract_filter.py
+|2,0,1549455633,,"e src/lib/filters/abstract_filter.py"
+:sp src/lib/params.py
+|2,0,1549455234,,"sp src/lib/params.py"
+:sp src/app/demo.py
+|2,0,1549455171,,"sp src/app/demo.py"
+:sp src/lib/filter_factory.py
+|2,0,1549455148,,"sp src/lib/filter_factory.py"
+:vsp src/lib/filters/threshold.py
+|2,0,1549455090,,"vsp src/lib/filters/threshold.py"
+:vsp src/lib/params.py
+|2,0,1549459663,,"vsp src/lib/params.py"
+:vsp 
+|2,0,1549459648,,"vsp "
+:'<,'>w
+|2,0,1549459594,,"'<,'>w"
+:sp src/run.py
+|2,0,1549457136,,"sp src/run.py"
+:e ../src/app/demo.py
+|2,0,1549404593,,"e ../src/app/demo.py"
+:vsp histogram_analysis.py
+|2,0,1549403606,,"vsp histogram_analysis.py"
+:sp ../src/lib/inspections/pixels_counting.py
+|2,0,1549402517,,"sp ../src/lib/inspections/pixels_counting.py"
+:vsp ../src/lib/filters/threshold.py
+|2,0,1549402494,,"vsp ../src/lib/filters/threshold.py"
+:e ../src/lib/histogram_comparison.py
+|2,0,1549402476,,"e ../src/lib/histogram_comparison.py"
+:sp ../src/lib/filter_factory.py
+|2,0,1549400540,,"sp ../src/lib/filter_factory.py"
+:h
+|2,0,1549400129,,"h"
+:e ../src/lib/filter_factory.py
+|2,0,1549399939,,"e ../src/lib/filter_factory.py"
+:vsp ../src/lib/camera/pylon_camera.py
+|2,0,1549399869,,"vsp ../src/lib/camera/pylon_camera.py"
+:sp ../src/app/demo.py
+|2,0,1549399631,,"sp ../src/app/demo.py"
+:w!
+|2,0,1549399430,,"w!"
+:e ../src/run.py
+|2,0,1549399353,,"e ../src/run.py"
+:sp ../src/app/__init__.py
+|2,0,1549399263,,"sp ../src/app/__init__.py"
+:vsp ../src/lib/__init__.py
+|2,0,1549399061,,"vsp ../src/lib/__init__.py"
+:vsp ../src/lib/filters/filter_params.py
+|2,0,1549396733,,"vsp ../src/lib/filters/filter_params.py"
+:100G
+|2,0,1549383011,,"100G"
+:set foldcolum=80
+|2,0,1549382877,,"set foldcolum=80"
+:set foldcolumn=12
+|2,0,1549382871,,"set foldcolumn=12"
+:set foldcolumn 20
+|2,0,1549382856,,"set foldcolumn 20"
+:PlugClean
+|2,0,1549382824,,"PlugClean"
+:PlugUninstall
+|2,0,1549382795,,"PlugUninstall"
 :source %
-|2,0,1545605224,,"source %"
-:souce %
-|2,0,1545605200,,"souce %"
-:sp install/cuda.sh
-|2,0,1545599556,,"sp install/cuda.sh"
+|2,0,1549382787,,"source %"
 :PlugInstall
-|2,0,1545598257,,"PlugInstall"
-:Plug install
-|2,0,1545598172,,"Plug install"
-:AirlineTheme simple
-|2,0,1545597570,,"AirlineTheme simple"
-:AirlineTheme base16_google
-|2,0,1545597465,,"AirlineTheme base16_google"
-:AirlineTheme minimalist
-|2,0,1545597440,,"AirlineTheme minimalist"
-:AirlineTheme molokai
-|2,0,1545597432,,"AirlineTheme molokai"
-:tab sp
-|2,0,1545597313,,"tab sp"
-:set rnu
-|2,0,1545591242,,"set rnu"
+|2,0,1549382728,,"PlugInstall"
+:Goyo
+|2,0,1549382714,,"Goyo"
+:qa!
+|2,0,1549382701,,"qa!"
+:PluginInstall
+|2,0,1549382661,,"PluginInstall"
+:vsp photos_grid.py
+|2,0,1549380833,,"vsp photos_grid.py"
+:ww
+|2,0,1549380549,,"ww"
+:set foldmethod=indent
+|2,0,1549377540,,"set foldmethod=indent"
+:source
+|2,0,1549377359,,"source"
+:e histogram_analysis_bgr.py
+|2,0,1549377012,,"e histogram_analysis_bgr.py"
+:e histogram_analysis.py
+|2,0,1549375119,,"e histogram_analysis.py"
+::w
+|2,0,1549374831,,":w"
+:vsp
+|2,0,1549374341,,"vsp"
 
 # Search String History (newest to oldest):
-?/utf
-|2,1,1545605716,47,"utf"
-?/PATH
-|2,1,1545576805,47,"PATH"
+?/Factory
+|2,1,1549455183,47,"Factory"
+?/Channel
+|2,1,1549389906,47,"Channel"
+?/assert
+|2,1,1549389747,47,"assert"
+?/print
+|2,1,1549389466,47,"print"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@/home/rcmoraes/projetos/cvi/cvi/src/lib/inspections/histogram_comparison.py
+|2,3,1549453495,,"/home/rcmoraes/projetos/cvi/cvi/src/lib/inspections/histogram_comparison.py"
+@/home/rcmoraes/projetos/cvi/cvi/src/lib/inspection/histogram_comparison.py
+|2,3,1549453474,,"/home/rcmoraes/projetos/cvi/cvi/src/lib/inspection/histogram_comparison.py"
+@/home/rcmoraes/projetos/cvi/cvi/src/lib/params.py
+|2,3,1549398780,,"/home/rcmoraes/projetos/cvi/cvi/src/lib/params.py"
+@/home/rcmoraes/projetos/cvi/cvi/src/lib/inspections/params.py
+|2,3,1549398215,,"/home/rcmoraes/projetos/cvi/cvi/src/lib/inspections/params.py"
+@y
+|2,3,1549382826,,"y"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
 "0	LINE	0
-	set -o vi
-	alias install='sudo apt install -y'
-	alias update='sudo apt-get update -y'
-	alias upgrade='sudo apt-get upgrade -y'
-	alias kill='sudo pkill'
-	alias c='clear'
-	
-|3,0,0,1,7,0,1545606178,"set -o vi","alias install='sudo apt install -y'","alias update='sudo apt-get update -y'","alias upgrade='sudo apt-get upgrade -y'","alias kill='sudo pkill'","alias c='clear'",""
+	    print(result.get_param('distance'))
+|3,0,0,1,1,0,1549461672,"    print(result.get_param('distance'))"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1545606183,""
+	git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
+|3,1,1,1,1,0,1549544214,"git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1545606181,""
+	~/.bash_it/install.sh --silent
+|3,0,2,1,1,0,1549544212,"~/.bash_it/install.sh --silent"
 "3	LINE	0
-	PATH=$PATH:/snap/bin
-|3,0,3,1,1,0,1545605934,"PATH=$PATH:/snap/bin"
+	sudo apt-get update
+|3,0,3,1,1,0,1549542901,"sudo apt-get update"
 "4	LINE	0
-	alias jupyter='jupyter notebook'
-|3,0,4,1,1,0,1545605927,"alias jupyter='jupyter notebook'"
+	
+|3,0,4,1,1,0,1549542207,""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1545605685,""
+|3,0,5,1,1,0,1549541977,""
 "6	LINE	0
-	# Enable mouse mode (tmux 2.1 and above)
-	set -g mouse on
-	
-	######################
-	### DESIGN CHANGES ###
-	######################
-	
-	# loud or quiet?
-	set-option -g visual-activity off
-	set-option -g visual-bell off
-	set-option -g visual-silence off
-	set-window-option -g monitor-activity off
-	set-option -g bell-action none
-	
-	#  modes
-	setw -g clock-mode-colour colour5
-	setw -g mode-attr bold
-	setw -g mode-fg colour1
-	setw -g mode-bg colour18
-	
-	# panes
-	set -g pane-border-bg colour0
-	set -g pane-border-fg colour19
-	set -g pane-active-border-bg colour0
-	set -g pane-active-border-fg colour9
-	
-	# statusbar
-	set -g status-position bottom
-	set -g status-justify left
-	set -g status-bg colour18
-	set -g status-fg colour137
-	set -g status-attr dim
-	set -g status-left ''
-	set -g status-right '#[fg=colour233,bg=colour19,bold] %d/%m #[fg=colour233,bg=colour8,bold] %H:%M:%S '
-	set -g status-right-length 50
-	set -g status-left-length 20
-	
-	setw -g window-status-current-fg colour1
-	setw -g window-status-current-bg colour19
-	setw -g window-status-current-attr bold
-	setw -g window-status-current-format ' #I#[fg=colour249]:#[fg=colour255]#W#[fg=colour249]#F '
-	
-	setw -g window-status-fg colour9
-	setw -g window-status-bg colour18
-	setw -g window-status-attr none
-	setw -g window-status-format ' #I#[fg=colour237]:#[fg=colour250]#W#[fg=colour244]#F '
-	
-	setw -g window-status-bell-attr bold
-	setw -g window-status-bell-fg colour255
-	setw -g window-status-bell-bg colour1
-|3,0,6,1,50,0,1545605682,"# Enable mouse mode (tmux 2.1 and above)","set -g mouse on","","######################","### DESIGN CHANGES ###","######################","","# loud or quiet?","set-option -g visual-activity off","set-option -g visual-bell off","set-option -g visual-silence off","set-window-option -g monitor-activity off","set-option -g bell-action none","","#  modes","setw -g clock-mode-colour colour5","setw -g mode-attr bold",>25
-|<"setw -g mode-fg colour1","setw -g mode-bg colour18","","# panes","set -g pane-border-bg colour0","set -g pane-border-fg colour19","set -g pane-active-border-bg colour0","set -g pane-active-border-fg colour9","","# statusbar","set -g status-position bottom","set -g status-justify left","set -g status-bg colour18","set -g status-fg colour137","set -g status-attr dim","set -g status-left ''",>104
-|<"set -g status-right '#[fg=colour233,bg=colour19,bold] %d/%m #[fg=colour233,bg=colour8,bold] %H:%M:%S '","set -g status-right-length 50","set -g status-left-length 20","","setw -g window-status-current-fg colour1","setw -g window-status-current-bg colour19","setw -g window-status-current-attr bold","setw -g window-status-current-format ' #I#[fg=colour249]:#[fg=colour255]#W#[fg=colour249]#F '","","setw -g window-status-fg colour9","setw -g window-status-bg colour18",>33
-|<"setw -g window-status-attr none","setw -g window-status-format ' #I#[fg=colour237]:#[fg=colour250]#W#[fg=colour244]#F '","","setw -g window-status-bell-attr bold","setw -g window-status-bell-fg colour255","setw -g window-status-bell-bg colour1"
+	export TODO="t"
+|3,0,6,1,1,0,1549541976,"export TODO=\"t\""
 "7	LINE	0
-	
-	
-|3,0,7,1,2,0,1545605650,"",""
+	# Set this to the command you use for todo.txt-cli
+|3,0,7,1,1,0,1549541976,"# Set this to the command you use for todo.txt-cli"
 "8	LINE	0
-	/home/rcmoraes/Google Drive/projetos/pc-setup
-|3,0,8,1,1,0,1545598706,"/home/rcmoraes/Google Drive/projetos/pc-setup"
-"9	LINE	0
 	
-|3,0,9,1,1,0,1545598693,""
+|3,0,8,1,1,0,1549541969,""
+"9	LINE	0
+	export IRC_CLIENT='irssi'
+|3,0,9,1,1,0,1549541969,"export IRC_CLIENT='irssi'"
+"c	CHAR	0
+	0i#jkj
+|3,0,12,0,1,0,1549391702,"0i#jkj"
+"u@	CHAR	0
+	F#2xj
+|3,2,30,0,1,0,1549396604,"F#2xj"
 "-	CHAR	0
-	 
-|3,0,36,0,1,0,1545599599," "
+	pete
+|3,0,36,0,1,0,1549541333,"pete"
 
 # File marks:
-'0  12  7  ~/Google Drive/projetos/pc-setup/install/basic.sh
-|4,48,12,7,1545606230,"~/Google Drive/projetos/pc-setup/install/basic.sh"
-'1  121  0  ~/.bashrc
-|4,49,121,0,1545606188,"~/.bashrc"
-'2  1  0  ~/Google Drive/projetos/pc-setup/config/.bashrc
-|4,50,1,0,1545606142,"~/Google Drive/projetos/pc-setup/config/.bashrc"
-'3  7  32  ~/.tmux.conf
-|4,51,7,32,1545606060,"~/.tmux.conf"
-'4  84  0  ~/.bashrc
-|4,52,84,0,1545606011,"~/.bashrc"
-'5  84  0  ~/.bashrc
-|4,53,84,0,1545606011,"~/.bashrc"
-'6  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,54,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
-'7  130  51  ~/.bashrc
-|4,55,130,51,1545605819,"~/.bashrc"
-'8  130  51  ~/.bashrc
-|4,56,130,51,1545605819,"~/.bashrc"
-'9  130  51  ~/.bashrc
-|4,57,130,51,1545605819,"~/.bashrc"
+'0  6  15  ~/pc-setup/vim_install.sh
+|4,48,6,15,1549544281,"~/pc-setup/vim_install.sh"
+'1  6  0  ~/pc-setup/vim_install.sh
+|4,49,6,0,1549544224,"~/pc-setup/vim_install.sh"
+'2  61  0  ~/pc-setup/.bashrc
+|4,50,61,0,1549542544,"~/pc-setup/.bashrc"
+'3  10  15  ~/.bashrc
+|4,51,10,15,1549542239,"~/.bashrc"
+'4  1  0  ~/.vimrc
+|4,52,1,0,1549542175,"~/.vimrc"
+'5  68  0  ~/.bashrc
+|4,53,68,0,1549542047,"~/.bashrc"
+'6  67  0  ~/.bashrc
+|4,54,67,0,1549542047,"~/.bashrc"
+'7  3  0  ~/.bashrc
+|4,55,3,0,1549541852,"~/.bashrc"
+'8  3  0  ~/.bashrc
+|4,56,3,0,1549541852,"~/.bashrc"
+'9  3  0  ~/.bashrc
+|4,57,3,0,1549541852,"~/.bashrc"
 
 # Jumplist (newest first):
--'  12  7  ~/Google Drive/projetos/pc-setup/install/basic.sh
-|4,39,12,7,1545606230,"~/Google Drive/projetos/pc-setup/install/basic.sh"
--'  1  0  ~/Google Drive/projetos/pc-setup/install/basic.sh
-|4,39,1,0,1545606217,"~/Google Drive/projetos/pc-setup/install/basic.sh"
--'  121  0  ~/.bashrc
-|4,39,121,0,1545606188,"~/.bashrc"
--'  121  0  ~/.bashrc
-|4,39,121,0,1545606188,"~/.bashrc"
--'  1  0  ~/Google Drive/projetos/pc-setup/config/.bashrc
-|4,39,1,0,1545606142,"~/Google Drive/projetos/pc-setup/config/.bashrc"
--'  1  0  ~/Google Drive/projetos/pc-setup/config/.bashrc
-|4,39,1,0,1545606142,"~/Google Drive/projetos/pc-setup/config/.bashrc"
+-'  6  15  ~/pc-setup/vim_install.sh
+|4,39,6,15,1549544281,"~/pc-setup/vim_install.sh"
+-'  1  0  ~/pc-setup/vim_install.sh
+|4,39,1,0,1549544265,"~/pc-setup/vim_install.sh"
+-'  6  0  ~/pc-setup/vim_install.sh
+|4,39,6,0,1549544224,"~/pc-setup/vim_install.sh"
+-'  1  0  ~/pc-setup/vim_install.sh
+|4,39,1,0,1549542884,"~/pc-setup/vim_install.sh"
+-'  61  0  ~/pc-setup/.bashrc
+|4,39,61,0,1549542544,"~/pc-setup/.bashrc"
+-'  61  0  ~/pc-setup/.bashrc
+|4,39,61,0,1549542544,"~/pc-setup/.bashrc"
+-'  61  0  ~/pc-setup/.bashrc
+|4,39,61,0,1549542544,"~/pc-setup/.bashrc"
+-'  61  0  ~/pc-setup/.bashrc
+|4,39,61,0,1549542544,"~/pc-setup/.bashrc"
+-'  1  0  ~/pc-setup/.bashrc
+|4,39,1,0,1549542539,"~/pc-setup/.bashrc"
+-'  1  0  ~/pc-setup/.bashrc
+|4,39,1,0,1549542539,"~/pc-setup/.bashrc"
+-'  1  0  ~/pc-setup/.bashrc
+|4,39,1,0,1549542539,"~/pc-setup/.bashrc"
+-'  1  0  ~/pc-setup/.bashrc
+|4,39,1,0,1549542539,"~/pc-setup/.bashrc"
+-'  10  15  ~/.bashrc
+|4,39,10,15,1549542239,"~/.bashrc"
+-'  10  15  ~/.bashrc
+|4,39,10,15,1549542239,"~/.bashrc"
+-'  10  15  ~/.bashrc
+|4,39,10,15,1549542239,"~/.bashrc"
+-'  10  15  ~/.bashrc
+|4,39,10,15,1549542239,"~/.bashrc"
+-'  10  15  ~/.bashrc
+|4,39,10,15,1549542239,"~/.bashrc"
+-'  10  15  ~/.bashrc
+|4,39,10,15,1549542239,"~/.bashrc"
+-'  10  15  ~/.bashrc
+|4,39,10,15,1549542239,"~/.bashrc"
+-'  10  15  ~/.bashrc
+|4,39,10,15,1549542239,"~/.bashrc"
+-'  11  4  ~/.bashrc
+|4,39,11,4,1549542215,"~/.bashrc"
+-'  11  4  ~/.bashrc
+|4,39,11,4,1549542215,"~/.bashrc"
+-'  11  4  ~/.bashrc
+|4,39,11,4,1549542215,"~/.bashrc"
+-'  11  4  ~/.bashrc
+|4,39,11,4,1549542215,"~/.bashrc"
+-'  11  4  ~/.bashrc
+|4,39,11,4,1549542215,"~/.bashrc"
+-'  11  4  ~/.bashrc
+|4,39,11,4,1549542215,"~/.bashrc"
+-'  11  4  ~/.bashrc
+|4,39,11,4,1549542215,"~/.bashrc"
+-'  11  4  ~/.bashrc
+|4,39,11,4,1549542215,"~/.bashrc"
+-'  9  2  ~/.bashrc
+|4,39,9,2,1549542211,"~/.bashrc"
+-'  9  2  ~/.bashrc
+|4,39,9,2,1549542211,"~/.bashrc"
+-'  9  2  ~/.bashrc
+|4,39,9,2,1549542211,"~/.bashrc"
+-'  9  2  ~/.bashrc
+|4,39,9,2,1549542211,"~/.bashrc"
+-'  9  2  ~/.bashrc
+|4,39,9,2,1549542211,"~/.bashrc"
+-'  9  2  ~/.bashrc
+|4,39,9,2,1549542211,"~/.bashrc"
+-'  9  2  ~/.bashrc
+|4,39,9,2,1549542211,"~/.bashrc"
+-'  9  2  ~/.bashrc
+|4,39,9,2,1549542211,"~/.bashrc"
+-'  68  0  ~/.bashrc
+|4,39,68,0,1549542205,"~/.bashrc"
+-'  68  0  ~/.bashrc
+|4,39,68,0,1549542205,"~/.bashrc"
+-'  68  0  ~/.bashrc
+|4,39,68,0,1549542205,"~/.bashrc"
+-'  68  0  ~/.bashrc
+|4,39,68,0,1549542205,"~/.bashrc"
+-'  68  0  ~/.bashrc
+|4,39,68,0,1549542205,"~/.bashrc"
+-'  68  0  ~/.bashrc
+|4,39,68,0,1549542205,"~/.bashrc"
+-'  68  0  ~/.bashrc
+|4,39,68,0,1549542205,"~/.bashrc"
+-'  68  0  ~/.bashrc
+|4,39,68,0,1549542205,"~/.bashrc"
+-'  6  0  ~/.bashrc
+|4,39,6,0,1549542203,"~/.bashrc"
+-'  6  0  ~/.bashrc
+|4,39,6,0,1549542203,"~/.bashrc"
+-'  6  0  ~/.bashrc
+|4,39,6,0,1549542203,"~/.bashrc"
+-'  6  0  ~/.bashrc
+|4,39,6,0,1549542203,"~/.bashrc"
+-'  6  0  ~/.bashrc
+|4,39,6,0,1549542203,"~/.bashrc"
+-'  6  0  ~/.bashrc
+|4,39,6,0,1549542203,"~/.bashrc"
+-'  6  0  ~/.bashrc
+|4,39,6,0,1549542203,"~/.bashrc"
+-'  6  0  ~/.bashrc
+|4,39,6,0,1549542203,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1545606087,"~/.bashrc"
+|4,39,1,0,1549542197,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1545606087,"~/.bashrc"
--'  7  32  ~/.tmux.conf
-|4,39,7,32,1545606060,"~/.tmux.conf"
--'  7  32  ~/.tmux.conf
-|4,39,7,32,1545606060,"~/.tmux.conf"
--'  7  32  ~/.tmux.conf
-|4,39,7,32,1545606060,"~/.tmux.conf"
--'  7  32  ~/.tmux.conf
-|4,39,7,32,1545606060,"~/.tmux.conf"
--'  7  32  ~/.tmux.conf
-|4,39,7,32,1545606060,"~/.tmux.conf"
--'  7  32  ~/.tmux.conf
-|4,39,7,32,1545606060,"~/.tmux.conf"
--'  119  0  ~/.tmux.conf
-|4,39,119,0,1545606019,"~/.tmux.conf"
--'  119  0  ~/.tmux.conf
-|4,39,119,0,1545606019,"~/.tmux.conf"
--'  119  0  ~/.tmux.conf
-|4,39,119,0,1545606019,"~/.tmux.conf"
--'  119  0  ~/.tmux.conf
-|4,39,119,0,1545606019,"~/.tmux.conf"
--'  119  0  ~/.tmux.conf
-|4,39,119,0,1545606019,"~/.tmux.conf"
--'  119  0  ~/.tmux.conf
-|4,39,119,0,1545606019,"~/.tmux.conf"
--'  2  0  ~/.tmux.conf
-|4,39,2,0,1545606017,"~/.tmux.conf"
--'  2  0  ~/.tmux.conf
-|4,39,2,0,1545606017,"~/.tmux.conf"
--'  2  0  ~/.tmux.conf
-|4,39,2,0,1545606017,"~/.tmux.conf"
--'  2  0  ~/.tmux.conf
-|4,39,2,0,1545606017,"~/.tmux.conf"
--'  2  0  ~/.tmux.conf
-|4,39,2,0,1545606017,"~/.tmux.conf"
--'  2  0  ~/.tmux.conf
-|4,39,2,0,1545606017,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1545606016,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1545606016,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1545606016,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1545606016,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1545606016,"~/.tmux.conf"
--'  1  0  ~/.tmux.conf
-|4,39,1,0,1545606016,"~/.tmux.conf"
--'  84  0  ~/.bashrc
-|4,39,84,0,1545606011,"~/.bashrc"
--'  84  0  ~/.bashrc
-|4,39,84,0,1545606011,"~/.bashrc"
--'  84  0  ~/.bashrc
-|4,39,84,0,1545606011,"~/.bashrc"
--'  84  0  ~/.bashrc
-|4,39,84,0,1545606011,"~/.bashrc"
--'  84  0  ~/.bashrc
-|4,39,84,0,1545606011,"~/.bashrc"
--'  84  0  ~/.bashrc
-|4,39,84,0,1545606011,"~/.bashrc"
--'  84  0  ~/.bashrc
-|4,39,84,0,1545606011,"~/.bashrc"
--'  84  0  ~/.bashrc
-|4,39,84,0,1545606011,"~/.bashrc"
--'  84  0  ~/.bashrc
-|4,39,84,0,1545606011,"~/.bashrc"
--'  84  0  ~/.bashrc
-|4,39,84,0,1545606011,"~/.bashrc"
--'  121  0  ~/.bashrc
-|4,39,121,0,1545605960,"~/.bashrc"
--'  121  0  ~/.bashrc
-|4,39,121,0,1545605960,"~/.bashrc"
--'  121  0  ~/.bashrc
-|4,39,121,0,1545605960,"~/.bashrc"
--'  121  0  ~/.bashrc
-|4,39,121,0,1545605960,"~/.bashrc"
--'  121  0  ~/.bashrc
-|4,39,121,0,1545605960,"~/.bashrc"
--'  121  0  ~/.bashrc
-|4,39,121,0,1545605960,"~/.bashrc"
--'  121  0  ~/.bashrc
-|4,39,121,0,1545605960,"~/.bashrc"
--'  121  0  ~/.bashrc
-|4,39,121,0,1545605960,"~/.bashrc"
--'  71  0  ~/.bashrc
-|4,39,71,0,1545605956,"~/.bashrc"
--'  71  0  ~/.bashrc
-|4,39,71,0,1545605956,"~/.bashrc"
--'  71  0  ~/.bashrc
-|4,39,71,0,1545605956,"~/.bashrc"
--'  71  0  ~/.bashrc
-|4,39,71,0,1545605956,"~/.bashrc"
--'  71  0  ~/.bashrc
-|4,39,71,0,1545605956,"~/.bashrc"
--'  71  0  ~/.bashrc
-|4,39,71,0,1545605956,"~/.bashrc"
--'  71  0  ~/.bashrc
-|4,39,71,0,1545605956,"~/.bashrc"
--'  71  0  ~/.bashrc
-|4,39,71,0,1545605956,"~/.bashrc"
--'  71  0  ~/.bashrc
-|4,39,71,0,1545605956,"~/.bashrc"
--'  71  0  ~/.bashrc
-|4,39,71,0,1545605956,"~/.bashrc"
--'  122  0  ~/.bashrc
-|4,39,122,0,1545605939,"~/.bashrc"
--'  122  0  ~/.bashrc
-|4,39,122,0,1545605939,"~/.bashrc"
--'  122  0  ~/.bashrc
-|4,39,122,0,1545605939,"~/.bashrc"
--'  122  0  ~/.bashrc
-|4,39,122,0,1545605939,"~/.bashrc"
--'  122  0  ~/.bashrc
-|4,39,122,0,1545605939,"~/.bashrc"
--'  122  0  ~/.bashrc
-|4,39,122,0,1545605939,"~/.bashrc"
--'  122  0  ~/.bashrc
-|4,39,122,0,1545605939,"~/.bashrc"
--'  122  0  ~/.bashrc
-|4,39,122,0,1545605939,"~/.bashrc"
--'  122  0  ~/.bashrc
-|4,39,122,0,1545605939,"~/.bashrc"
--'  122  0  ~/.bashrc
-|4,39,122,0,1545605939,"~/.bashrc"
+|4,39,1,0,1549542197,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1545605922,"~/.bashrc"
+|4,39,1,0,1549542197,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1545605922,"~/.bashrc"
+|4,39,1,0,1549542197,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1545605922,"~/.bashrc"
+|4,39,1,0,1549542197,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1545605922,"~/.bashrc"
+|4,39,1,0,1549542197,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1545605922,"~/.bashrc"
+|4,39,1,0,1549542197,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1545605922,"~/.bashrc"
+|4,39,1,0,1549542197,"~/.bashrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1549542175,"~/.vimrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
+-'  67  0  ~/.bashrc
+|4,39,67,0,1549542047,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1545605922,"~/.bashrc"
+|4,39,1,0,1549541863,"~/.bashrc"
 -'  1  0  ~/.bashrc
-|4,39,1,0,1545605922,"~/.bashrc"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
--'  114  0  ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-|4,39,114,0,1545605896,"~/Google Drive/projetos/pc-setup/config/.tmux.conf"
+|4,39,1,0,1549541863,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1549541863,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1549541863,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1549541863,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1549541863,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1549541863,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1549541863,"~/.bashrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/Google Drive/projetos/pc-setup/install/basic.sh
-	*	1545606225	0
-	"	12	7
-	^	12	8
-	.	12	7
-	+	11	11
-	+	12	7
+> ~/pc-setup/vim_install.sh
+	*	1549544275	0
+	"	6	15
+	^	6	16
+	.	6	15
+	+	1	21
+	+	2	0
+	+	2	26
+	+	3	0
+	+	2	28
+	+	3	67
+	+	5	13
+	+	6	0
+	+	4	77
+	+	6	13
+	+	5	68
+	+	5	0
+	+	8	0
+	+	5	0
+	+	7	0
+	+	6	15
+	v	6	0
+
+> ~/pc-setup/.bashrc
+	*	1549542542	0
+	"	61	0
 
 > ~/.bashrc
-	*	1545606186	0
-	"	121	0
-	^	120	0
-	.	120	0
-	+	121	8
-	+	127	31
-	+	122	19
-	+	122	33
-	+	123	35
-	+	124	37
-	+	130	0
-	+	130	52
-	+	131	0
-	+	127	0
-	+	122	0
-	+	119	0
-	+	122	0
-	+	121	0
-	+	122	0
-	+	120	0
-
-> ~/Google Drive/projetos/pc-setup/config/.bashrc
-	*	1545606183	0
-	"	6	0
-	.	7	0
-	+	1	0
-	+	7	0
-
-> ~/.tmux.conf
-	*	1545606058	0
-	"	7	32
-	^	10	24
-	.	7	32
-	+	5	0
-	+	17	100
-	+	12	54
-	+	18	0
-	+	20	0
-	+	18	0
-	+	119	0
-	+	32	0
-	+	10	23
-	+	9	23
-	+	10	11
-	+	7	32
-
-> ~/Google Drive/projetos/pc-setup/config/.tmux.conf
-	*	1545605895	0
-	"	114	0
+	*	1549542235	0
+	"	10	15
+	^	10	16
+	.	10	15
+	+	27	25
+	+	3	0
+	+	4	66
+	+	14	0
+	+	39	0
+	+	3	0
+	+	8	0
+	+	11	0
+	+	10	15
 
 > ~/.vimrc
-	*	1545605237	0
+	*	1549542173	0
 	"	1	0
-	^	12	43
-	.	12	42
-	+	19	42
-	+	1	15
-	+	2	11
+	.	20	0
+	+	61	0
+	+	59	0
+	+	67	20
+	+	64	0
+	+	66	0
+	+	67	0
+	+	62	20
+	+	20	0
+
+> ~/.bashrd
+	*	1549541323	0
+	"	1	0
+
+> ~/.tmux.conf
+	*	1549540536	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/Dockerfile
+	*	1549468611	0
+	"	1	27
+	^	1	28
+	.	1	27
+	+	1	27
+
+> ~/projetos/cvi/cvi/src/app/demo.py
+	*	1549468340	0
+	"	125	4
+	^	6	61
+	.	10	0
+	+	128	0
+	+	130	0
+	+	125	0
+	+	128	0
+	+	130	9
+	+	1	0
 	+	7	0
-	+	13	0
+	+	5	43
 	+	7	0
-	+	13	16
-	+	14	24
-	+	19	0
-	+	29	51
-	+	19	0
+	+	6	60
+	+	7	0
+	+	10	0
+
+> ~/projetos/cvi/cvi/src/lib/inspections/histogram_comparison.py
+	*	1549457093	0
+	"	49	9
+	^	43	27
+	.	37	0
+	+	38	20
+	+	38	34
+	+	38	0
+	+	38	28
+	+	38	33
+	+	38	30
+	+	38	32
+	+	38	47
+	+	38	37
+	+	38	36
+	+	38	0
+	+	38	42
+	+	38	0
+	+	39	41
+	+	38	0
+	+	40	17
+	+	38	0
+	+	44	0
+	+	38	0
+	+	14	0
+	+	34	0
+	+	44	0
+	+	35	29
+	+	36	16
+	+	37	0
+	+	36	13
+	+	46	16
+	+	37	0
+
+> ~/projetos/cvi/cvi/src/lib/params.py
+	*	1549455789	0
+	"	10	0
+
+> ~/projetos/cvi/cvi/src/lib/filters/abstract_filter.py
+	*	1549455641	0
+	"	3	0
+	.	2	0
+	+	1	21
+	+	5	21
+	+	13	39
+	+	3	17
+	+	13	36
+	+	1	8
+	+	2	0
+
+> ~/projetos/cvi/cvi/src/lib/filter_factory.py
+	*	1549455613	0
+	"	5	0
+	^	9	40
+	.	9	32
 	+	8	0
-	+	30	0
-	+	19	13
-	+	19	3
-	+	9	35
-	+	30	13
-	+	10	42
-	+	32	0
-	+	11	32
+	+	9	32
+
+> ~/projetos/cvi/cvi/src/lib/filters/threshold.py
+	*	1549455260	0
+	"	30	0
+
+> ~/projetos/cvi/cvi/NERD_tree_2
+	*	1549454532	0
+	"	18	0
+	.	1	0
+	+	1	0
+
+> ~/projetos/cvi/cvi/src/run.py
+	*	1549454528	0
+	"	4	0
+	^	2	16
+	.	2	14
+	+	4	0
+	+	4	46
+	+	4	0
+	+	4	9
+	+	4	20
+	+	7	14
+	+	1	10
+	+	1	0
+	+	2	14
+
+> ~/projetos/cvi/cvi/NERD_tree_1
+	*	1549453503	0
+	"	18	0
+	.	1	0
+	+	1	0
+
+> ~/projetos/cvi/cvi/src/lib/histogram_comparison.py
+	*	1549404617	0
+	"	35	43
+	^	35	44
+	.	34	0
+	+	1	0
+	+	8	32
+	+	6	0
+	+	5	0
+	+	11	49
+	+	12	31
+	+	23	17
+	+	12	38
+	+	11	56
+	+	23	64
+	+	23	56
+	+	23	84
+	+	23	43
+	+	23	24
 	+	19	0
 	+	18	0
-	+	17	36
-	+	12	42
+	+	23	0
+	+	19	17
+	+	20	12
+	+	23	0
+	+	22	0
+	+	23	57
+	+	24	53
+	+	32	0
+	+	27	86
+	+	32	0
+	+	21	19
+	+	25	56
+	+	32	0
+	+	14	38
+	+	15	34
+	+	17	40
+	+	16	46
+	+	21	66
+	+	14	51
+	+	15	51
+	+	25	80
+	+	16	47
+	+	21	84
+	+	25	98
+	+	21	87
+	+	25	101
+	+	27	68
+	+	27	0
+	+	32	14
+	+	31	0
+	+	29	25
+	+	30	44
+	+	27	0
+	+	27	15
+	+	32	21
+	+	38	9
+	+	35	41
+	+	34	0
 
-> ~/Google Drive/projetos/pc-setup/install/cuda.sh
-	*	1545599668	0
-	"	32	26
-	^	32	39
-	.	32	26
-	+	9	21
-	+	33	0
-	+	32	26
+> ~/projetos/cvi/cvi/temp/histogram_analysis.py
+	*	1549404553	0
+	"	80	0
+	^	37	56
+	.	36	0
+	+	108	0
+	+	92	0
+	+	93	44
+	+	92	0
+	+	61	0
+	+	93	44
+	+	92	0
+	+	93	47
+	+	7	8
+	+	88	14
+	+	91	0
+	+	85	0
+	+	92	0
+	+	93	51
+	+	92	0
+	+	93	62
+	+	61	0
+	+	24	0
+	+	103	22
+	+	93	15
+	+	20	0
+	+	21	0
+	+	23	0
+	+	22	45
+	+	23	0
+	+	24	0
+	+	23	36
+	+	61	41
+	+	22	0
+	+	79	29
+	+	20	40
+	+	79	0
+	+	80	22
+	+	79	27
+	+	78	0
+	+	79	36
+	+	31	82
+	+	88	0
+	+	92	0
+	+	31	0
+	+	31	93
+	+	31	0
+	+	42	40
+	+	44	24
+	+	44	21
+	+	44	0
+	+	37	14
+	+	36	0
+	+	37	42
+	+	36	0
+	+	38	22
+	+	44	31
+	+	37	37
+	+	36	0
+	+	37	29
+	+	36	0
+	+	38	25
+	+	37	29
+	+	36	0
+	+	37	26
+	+	36	0
+	+	37	27
+	+	37	29
+	+	36	0
+	+	38	30
+	+	36	0
+	+	37	45
+	+	36	0
+	+	37	29
+	+	36	0
+	+	37	0
+	+	38	33
+	+	37	0
+	+	38	55
+	+	38	26
+	+	37	0
+	+	38	71
+	+	39	0
+	+	31	0
+	+	39	0
+	+	42	0
+	+	88	0
+	+	87	7
+	+	88	0
+	+	89	10
+	+	90	0
+	+	92	0
+	+	86	0
+	+	87	0
+	+	89	0
+	+	88	18
+	+	36	0
+	i	37	26
+	z	1	4
 
-> ~/Google Drive/projetos/pc-setup/install/after_cuda.sh
-	*	1545599663	0
-	"	5	25
-	^	5	26
-	.	5	25
-	+	2	10
-	+	1	23
-	+	4	49
-	+	5	25
+> ~/projetos/cvi/cvi/temp/NERD_tree_2
+	*	1549404005	0
+	"	16	0
+	.	1	0
+	+	1	0
 
-> ~/Google Drive/projetos/pc-setup/install_basic.sh
-	*	1545599350	0
-	"	10	25
-	^	10	26
-	.	10	25
-	+	2	9
-	+	12	22
-	+	10	25
+> ~/projetos/cvi/cvi/src/lib/inspections/pixels_counting.py
+	*	1549403462	0
+	"	4	0
 
-> ~/Google Drive/projetos/pc-setup/vim/README.md
-	*	1545598846	0
-	"	1	55
-	^	1	56
-	.	1	55
-	+	1	55
+> ~/projetos/cvi/cvi/src/lib/inspections/abstract_inspection.py
+	*	1549402434	0
+	"	1	0
+	^	1	9
+	.	1	8
+	+	4	30
+	+	1	6
+	+	11	37
+	+	1	8
 
-> ~/.bashr
-	*	1545598683	0
+> ~/projetos/cvi/cvi/src/lib/inspection_factory.py
+	*	1549400643	0
+	"	1	0
+	^	9	30
+	.	9	29
+	+	9	29
+
+> ~/projetos/cvi/cvi/src/lib/inspections/find_contours.py
+	*	1549400448	0
 	"	1	0
 
-> ~/Google Drive/projetos/pc-setup/disable-touchscreen.sh
-	*	1545598574	0
-	"	1	44
-	^	1	2
-	.	1	44
-	+	1	44
-
-> ~/Google Drive/projetos/faceRecognition/requirements.txt
-	*	1545596840	0
+> ~/projetos/cvi/cvi/src/lib/inspections/background_subtraction.py
+	*	1549400447	0
 	"	1	0
 
-> ~/Downloads/cuda_9.0_cudnn_7.0.sh
-	*	1545595590	0
-	"	33	22
-	^	33	23
-	.	33	22
-	+	32	55
-	+	24	50
-	+	21	21
-	+	15	21
-	+	33	22
+> ~/projetos/cvi/cvi/src/lib/filters/in_range.py
+	*	1549400429	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/lib/filters/histogram_equalization.py
+	*	1549400428	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/lib/filters/gamma.py
+	*	1549400427	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/lib/filters/erode.py
+	*	1549400426	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/lib/filters/dilate.py
+	*	1549400424	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/lib/filters/clahe.py
+	*	1549400423	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/lib/filters/brightness_and_contrast.py
+	*	1549400422	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/lib/filters/blur.py
+	*	1549400421	0
+	"	1	3
+
+> ~/projetos/cvi/cvi/src/lib/camera/pylon_camera.py
+	*	1549400389	0
+	"	1	0
+	^	8	6
+	.	8	5
+	+	5	5
+	+	6	5
+	+	7	5
+	+	8	5
+
+> ~/projetos/cvi/cvi/src/lib/camera/image_retrieve_thread.py
+	*	1549400388	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/lib/camera/image_event_handler.py
+	*	1549400386	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/lib/camera/configuration_event_handler.py
+	*	1549400385	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/lib/camera/communicate.py
+	*	1549400384	0
+	"	3	0
+
+> ~/projetos/cvi/cvi/src/database/models.py
+	*	1549400332	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/database/dbSetupROI.py
+	*	1549400331	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/database/dbSetupProduct.py
+	*	1549400329	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/database/db.py
+	*	1549400328	0
+	"	5	0
+
+> ~/projetos/cvi/cvi/src/control/roi.py
+	*	1549400323	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/control/actionsSetupROI.py
+	*	1549400319	0
+	"	8	0
+	.	8	0
+	+	8	0
+
+> ~/projetos/cvi/cvi/src/control/actionsSetupProduct.py
+	*	1549400306	0
+	"	9	0
+	^	8	5
+	.	8	0
+	+	8	0
+
+> ~/projetos/cvi/cvi/src/app/view.qml
+	*	1549400284	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/app/qml_demo.py
+	*	1549400283	0
+	"	1	0
+
+> ~/projetos/cvi/cvi/src/app/__init__.py
+	*	1549400261	0
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	10
+	+	1	0
+
+> ~/projetos/cvi/cvi/src/lib/__init__.py
+	*	1549399345	0
+	"	1	0
+	.	1	0
+	+	1	0
+	+	1	13
+	+	1	48
+	+	1	30
+	+	1	0
+
+> ~/projetos/cvi/cvi/src/lib/filters/__init__.py
+	*	1549399030	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/projetos/cvi/cvi/temp/show_images.py
+	*	1549396334	0
+	"	11	56
+
+> ~/projetos/cvi/cvi/temp/manual_perspective_correction.py
+	*	1549395462	0
+	"	12	0
+
+> ~/projetos/cvi/cvi/temp/NERD_tree_1
+	*	1549382882	0
+	"	8	0
+	.	1	0
+	+	1	0
+
+> ~/projetos/cvi/cvi/temp/photos_grid.py
+	*	1549382467	0
+	"	3	0
+	^	14	24
+	.	14	0
+	+	1	0
+	+	4	0
+	+	7	0
+	+	10	0
+	+	12	0
+	+	14	0
+	+	20	0
+	+	21	0
+	+	5	0
+	+	6	0
+	+	4	0
+	+	4	1
+	+	5	12
+	+	8	14
+	+	7	0
+	+	8	13
+	+	10	0
+	+	13	0
+	+	6	26
+	+	9	28
+	+	21	20
+	+	12	0
+	+	21	0
+	+	5	12
+	+	20	0
+	+	5	12
+	+	8	13
+	+	10	0
+	+	20	44
+	+	14	24
+	+	14	19
+	+	14	0
+	+	20	0
+	+	21	0
+	+	19	0
+	+	14	0
+
+> ~/projetos/cvi/cvi/temp/histogram_analysis_bgr.py
+	*	1549377266	0
+	"	5	0

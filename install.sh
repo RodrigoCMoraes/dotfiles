@@ -1,5 +1,5 @@
 sudo apt-get update -y
-sudo apt-get install vim git -y
+sudo apt-get install vim git tree -y
 git clone https://github.com/rodrigocmoraes/pc-setup.git ~/.pc-setup
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 cd ~/.pc-setup
