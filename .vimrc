@@ -10,7 +10,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
     Plugin 'VundleVim/Vundle.vim'
     Plugin 'davidhalter/jedi-vim'
-    Plug 'lfv89/vim-interestingwords'
     Plugin 'christoomey/vim-tmux-navigator'
     Plugin 'tpope/vim-surround'
     Plugin 'wakatime/vim-wakatime'
