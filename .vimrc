@@ -16,7 +16,7 @@ call vundle#begin()
     Plugin 'wakatime/vim-wakatime'
     Plugin 'scrooloose/nerdtree'
     Plugin 'Xuyuanp/nerdtree-git-plugin'
-    Plugin 'Chiel92/vim-autoformat'
+    Plugin 'w0rp/ale' " # pep8 
 call vundle#end()            
 filetype plugin indent on   
 
