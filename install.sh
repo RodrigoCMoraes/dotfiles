@@ -11,3 +11,4 @@ git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
 cd ~/.pc-setup
 cp -r .tmux.conf .vim .vimrc .viminfo ~/
 sed -i 's/bobby/sexy/g' ~/.bashrc
+vim -c 'PluginInstall' -c 'qa!'
