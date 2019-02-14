@@ -12,7 +12,6 @@ call vundle#begin()
     Plugin 'davidhalter/jedi-vim'
     Plugin 'christoomey/vim-tmux-navigator'
     Plugin 'tpope/vim-surround'
-    Plugin 'wakatime/vim-wakatime'
     Plugin 'scrooloose/nerdtree'
     Plugin 'Xuyuanp/nerdtree-git-plugin'
     Plugin 'w0rp/ale' " # pep8 
