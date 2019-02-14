@@ -8,4 +8,3 @@ bind '"jk":"\e"'
 alias c="clear"
 alias ll='ls -alF'
 alias lt='clear; tree -L '
-sed -i 's/bobby/sexy/g' ~/.bashrc
