@@ -13,3 +13,4 @@ cp -r .tmux.conf .vim .vimrc .viminfo ~/
 sed -i 's/bobby/sexy/g' ~/.bashrc
 vim -c 'PluginInstall' -c 'qa!'
 vim -c 'PlugInstall' -c 'qa!'
+cat .bashrc >> ~/.bashrc
