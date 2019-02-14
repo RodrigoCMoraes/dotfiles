@@ -1,6 +1,3 @@
-# added by Miniconda3 installer
-export PATH="/home/rcmoraes/miniconda3/bin:$PATH"
-
 # create new session if does not exists one, attach to it otherwise
 if [ "$TMUX" == "" ]; then
     tmux new-session -A -s main
@@ -19,7 +16,7 @@ case $- in
 esac
 
 # Path to the bash it configuration
-export BASH_IT="/home/rcmoraes/.bash_it"
+export BASH_IT="~/.bash_it"
 
 # Lock and Load a custom theme file.
 # Leave empty to disable theming.
