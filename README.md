@@ -1,5 +1,5 @@
 # pc-setup
-This repository contains some automation scripts to setup things on my pc
+This repository contains my Vim/Tmux setup.
 
 ![Demo](https://github.com/RodrigoCMoraes/pc-setup/blob/master/demo.PNG)
 
