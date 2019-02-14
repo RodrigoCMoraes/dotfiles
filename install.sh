@@ -1,5 +1,5 @@
-sudo apt-get update -y
-sudo apt-get install -y \
+apt-get update -y
+apt-get install -y \
   vim \
   git \
   tree \
