@@ -7,4 +7,6 @@ set -o vi
 bind '"jk":"\e"'
 alias c="clear"
 alias ll='ls -alF'
-alias lt='clear; tree -a -L '
+alias lt='clear; tree -a -C -L'
+alias gs='clear; git status'
+alias tasks='git grep -EI "TODO|FIXME|BUG"'
