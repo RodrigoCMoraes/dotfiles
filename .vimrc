@@ -64,5 +64,8 @@ augroup OpenAllFoldsOnFileOpen
     autocmd BufRead * normal zR
 augroup END
 
-nnoremap <silent> + :exe "resize " . (winheight(0) * 3/2)<CR>
-nnoremap <silent> - :exe "resize " . (winheight(0) * 2/3)<CR>
+" Resize panes
+nmap 0 :vertical res-5<CR>
+nmap 7 :vertical res+5<CR>
+nmap 8 :res-5<CR>
+nmap 9 :res+5<CR>
