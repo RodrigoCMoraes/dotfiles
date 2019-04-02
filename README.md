@@ -47,6 +47,11 @@ source ~/.bashrc
   * c                    -> Clear bash (Ctrl + l remapped)
  
 3. Tmux
-> Bash starts in last tmux session
-  * Ctrl + z             -> Leader Key
+> Bash starts in last tmux session(I work with just one session and many windows and panes)
+  * Ctrl + z             -> Leader Key(LK)
   * Ctrl + (h,j,k,l)     -> Move between panes
+  * LK + c               -> Create new window
+  * LK + n               -> Go to next window(right)
+  * LK + p               -> Go to previous window(left)
+  * LK + w               -> Change between windows with preview
+  * LK + d               -> Detach from session(tmux attach, to attach to session)
