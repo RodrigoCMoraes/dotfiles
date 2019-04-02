@@ -55,3 +55,11 @@ source ~/.bashrc
   * LK + p               -> Go to previous window(left)
   * LK + w               -> Change between windows with preview
   * LK + d               -> Detach from session(tmux attach, to attach to session)
+  * LK + &               -> Kill window
+  * LK + x               -> Kill current pane
+  * LK + ,               -> Rename window
+  * LK + |               -> Split window vertically
+  * LK + -               -> Split window horizontally
+  * LK + {               -> Swap pane with last pane
+  * LK + !               -> Open current pane on new window
+  * Alt + (h,j,k,l)      -> Resize panes
