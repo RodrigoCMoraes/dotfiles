@@ -9,4 +9,5 @@ alias c="clear"
 alias ll='ls -alF'
 alias lt='clear; tree -a -C -L'
 alias gs='clear; git status'
+alias gh='git log --all --decorate --oneline --graph'
 alias tasks='git grep -EI "TODO|FIXME|BUG"'
