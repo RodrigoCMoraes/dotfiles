@@ -63,9 +63,3 @@ augroup OpenAllFoldsOnFileOpen
     autocmd!
     autocmd BufRead * normal zR
 augroup END
-
-" Resize panes
-nmap 0 :vertical res-5<CR>
-nmap 7 :vertical res+5<CR>
-nmap 8 :res-5<CR>
-nmap 9 :res+5<CR>
