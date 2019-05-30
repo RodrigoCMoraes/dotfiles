@@ -7,9 +7,10 @@ set -o vi
 bind '"jk":"\e"'
 alias c="clear"
 alias ll='ls -alF'
-alias lt='clear; tree -a -C -L'
+alias lt='c; tree -a -C -L'
 alias l='lt 1 -I ".git"'
-alias gs='clear; git status'
-alias gh='git log --all --decorate --oneline --graph --pretty=format:"%C(yellow)%h%Creset%C(cyan)%C(bold)%d%Creset %C(cyan)(%cr)%Creset %C(green)%ce%Creset %s"'
-alias tasks='git grep -EI "TODO|FIXME|BUG"'
+alias gs='c; git status'
+alias gh="c; git log --all --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'"
+alias gd='c; git diff'
+alias tasks='c; git grep -EI "TODO|FIXME|BUG"'
 alias fuck='eval $(thefuck $(fc -ln -1)); history -r'
