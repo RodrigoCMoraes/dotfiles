@@ -41,10 +41,15 @@ source ~/.bashrc
 
 2. Bash
   * jk                   : Vi mode on bash
-  * lt N                 : List all files and directories, hidden are included, in Tree mode with N Level depth  
+  * lt N                 : List all files and directories, hidden are included, in Tree mode with N Level depth    
+  * l                    : Clear console and list everything but .git with N=1 
+  * ll                   : Clear console and list eveything in vertical mode
   * gs                   : Git status
+  * gd                   : Git diff (with [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy))
+  * gh                   : Git history ( with [link](https://stackoverflow.com/a/34467298/7195250))
   * tasks                : list TODO, FIXME and BUG tags on versioned code
   * c                    : Clear bash (Ctrl + l remapped)
+  * fuck                 : Corrects previous console command (with [thefuck](https://github.com/nvbn/thefuck))
  
 3. Tmux
 > Bash starts in last tmux session(I work with just one session and many windows and panes)
