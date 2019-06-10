@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ " $1" =  "docker" ]
+if [ "$1" =  "docker" ]
 then
     echo "installing in container"
 else
@@ -9,6 +9,16 @@ else
     sudo apt-get install terminator gitg -y
 fi
 
+if [ "$1" =  "docker" ]
+then
+apt install -y \
+  vim \
+  git \
+  tree \
+  thefuck \
+  tmux \
+  curl
+else
 sudo apt install -y \
   vim \
   git \
@@ -16,8 +26,14 @@ sudo apt install -y \
   thefuck \
   tmux \
   curl
+fi
 
-sudo curl https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy -o /usr/bin/diff-so-fancy
+if [ "$1" =  "docker" ]
+then
+	curl https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy -o /usr/bin/diff-so-fancy
+else
+	sudo curl https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy -o /usr/bin/diff-so-fancy
+fi
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 
 if [ "$1" =  "docker" ]
