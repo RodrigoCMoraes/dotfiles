@@ -11,6 +11,9 @@ docker build -t pc-setup .
 
 # Run container to try this setup
 docker run --rm -it pc-setup
+
+# Use this container as code editor
+docker run -it --privileged=true -v PATH_TO_SOURCE_CODE:/app pc-setup /bin/bash
 ```
 
 ## Install
