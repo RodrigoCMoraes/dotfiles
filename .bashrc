@@ -6,7 +6,7 @@ fi
 set -o vi
 bind '"jk":"\e"'
 alias c="clear"
-alias ll='ls -alF'
+alias ll='c; ls -alF'
 alias lt='c; tree -a -C -L'
 alias l='lt 1 -I ".git"'
 alias gs='c; git status'
