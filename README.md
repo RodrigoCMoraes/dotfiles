@@ -24,6 +24,6 @@ After installation configurations are ready!
 ## To Do:
 
 * [ ] Unisntall
-* [ ] Try out in Docker
 * [ ] Install Python 3.7 from Miniconda
 * [ ] Remove Python 2* if installed
+* [ ] Try out in Docker
