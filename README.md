@@ -1,7 +1,7 @@
 # !!! Working In Progress !!!
 
 # Requirements
-* Fedora 30
+* [Fedora 30](https://getfedora.org/)
 
 # Used packages
 * [vim](https://www.vim.org/)
