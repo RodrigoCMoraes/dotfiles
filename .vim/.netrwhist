@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='/home/rcmoraes'
-let g:netrw_dirhist_2='/home'
-let g:netrw_dirhist_3='/home/rcmoraes/projetos'
-let g:netrw_dirhist_4='/home/rcmoraes/projetos/faceRecognition'
-let g:netrw_dirhist_5='/home/rcmoraes'

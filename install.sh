@@ -1,58 +1,55 @@
 #!/bin/bash
 
-if [ "$1" =  "docker" ]
+is_installed(){
+	PKG_NAME=$1
+	RESULT=$(sudo dnf history userinstalled | grep -i $PKG_NAME | wc -w)
+	if [ "$RESULT" -gt "0" ]
+	then
+		return 1
+	fi
+	return 0
+}
+
+install_if_not_installed(){
+	for pkg in $@
+	do
+		if is_installed $pkg -ne "1"
+		then
+			echo "installing ${pkg}"
+			sudo dnf install -y ${pkg}
+		else
+			echo "$pkg already installed"
+		fi
+	done
+}
+
+# packages to be installed
+PACKAGES="git vim tmux ranger curl rsync tree"
+
+# update system
+sudo dnf autoremove -y
+sudo dnf clean all -y
+sudo dnf update -y
+
+# install packages if theses aren't installed
+install_if_not_installed $PACKAGES
+
+# make sync.sh executable if it isn't already
+if ! [ -x sync.sh ]
 then
-    echo "installing in container"
-else
-    echo "NOT installing in container"
-    sudo apt-get update -y
-    sudo apt-get install terminator gitg -y
+	chmod +x sync.sh
 fi
 
-if [ "$1" =  "docker" ]
+# installing diff-so-fancy
+if ! [ -e /usr/bin/diff-so-fancy ]
 then
-apt install -y \
-  vim \
-  git \
-  tree \
-  thefuck \
-  tmux \
-  curl
-else
-sudo apt install -y \
-  vim \
-  git \
-  tree \
-  thefuck \
-  tmux \
-  curl
-fi
-
-if [ "$1" =  "docker" ]
-then
-	curl https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy -o /usr/bin/diff-so-fancy
-else
 	sudo curl https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy -o /usr/bin/diff-so-fancy
+	sudo chmod +x /usr/bin/diff-so-fancy
+	git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 fi
-git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 
-if [ "$1" =  "docker" ]
-then
-    git clone https://github.com/VundleVim/Vundle.vim.git /root/.vim/bundle/Vundle.vim
-    git clone --depth=1 https://github.com/Bash-it/bash-it.git /root/.bash_it
-    /root/.bash_it/install.sh --silent
-    sed -i 's/bobby/sexy/g' /root/.bashrc
-    vim -c 'PluginInstall' -c 'qa!'
-    vim -c 'PlugInstall' -c 'qa!'
-    cat .bashrc_temp >> /root/.bashrc
-    rm .bashrc_temp
-else
-    git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-    git clone --depth=1 https://github.com/Bash-it/bash-it.git ~/.bash_it
-    ~/.bash_it/install.sh --silent
-    cp -r .tmux.conf .vim .vimrc .viminfo ~/
-    sed -i 's/bobby/sexy/g' ~/.bashrc
-    vim -c 'PluginInstall' -c 'qa!'
-    vim -c 'PlugInstall' -c 'qa!'
-    cat .bashrc >> ~/.bashrc
-fi
+# sync .dotfiles from project to system directory
+./sync.sh
+
+# warning user
+echo "Changes will be effective after logout"
