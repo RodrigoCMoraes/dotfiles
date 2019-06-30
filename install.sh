@@ -24,7 +24,7 @@ install_if_not_installed(){
 }
 
 # packages to be installed
-PACKAGES="git vim tmux ranger curl rsync tree"
+PACKAGES="git vim tmux ranger rsync tree"
 
 # update system
 sudo dnf autoremove -y
