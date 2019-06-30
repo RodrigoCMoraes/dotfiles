@@ -11,3 +11,9 @@ source .aliases
 # set vi mode in bash
 set -o vi
 bind '"jk"':vi-movement-mode
+
+# create new session if does not exists one; attach to last session if a session exists
+if [ "$TMUX" == "" ]
+then
+	tmux new-session -A -s main
+fi
