@@ -6,7 +6,7 @@
 # Used packages
 * [vim](https://www.vim.org/)
 * [git](https://git-scm.com/)
-* [ranger](https://github.com/ranger/ranger)
+* [ranger](http://ranger.github.io/)
 * [tmux](https://github.com/tmux/tmux/wiki)
 * [tree](https://linux.die.net/man/1/tree)
 
