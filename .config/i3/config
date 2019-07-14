@@ -174,3 +174,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+
+exec --no-startup-id feh --bg-fill --randomize ~/wallpapers/wallpapers/misc/*
+exec ~/scripts/cllscreen.sh

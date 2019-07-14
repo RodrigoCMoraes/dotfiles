@@ -24,7 +24,7 @@ install_if_not_installed(){
 }
 
 # packages to be installed
-PACKAGES="git vim tmux ranger rsync tree"
+PACKAGES="git vim tmux ranger rsync tree feh curl"
 
 # update system
 sudo dnf autoremove -y
@@ -46,6 +46,19 @@ then
 	sudo curl https://raw.githubusercontent.com/so-fancy/diff-so-fancy/master/third_party/build_fatpack/diff-so-fancy -o /usr/bin/diff-so-fancy
 	sudo chmod +x /usr/bin/diff-so-fancy
 	git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+fi
+
+# wallpapers
+if ! [ -d ~/wallpapers/ ]
+then
+    git clone https://github.com/wdsrocha/wallpapers ~/
+    sudo chmod 777 /usr/share/backgrounds/default.png
+fi
+
+# Xresources
+if ! [ -e base16-monokai-256.Xresources ]
+then
+    curl https://raw.githubusercontent.com/logico-dev/Xresources-themes/master/base16-monokai-256.Xresources -o base16-monokai-256.Xresources 
 fi
 
 # sync .dotfiles from project to system directory
