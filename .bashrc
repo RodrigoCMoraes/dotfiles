@@ -1,4 +1,4 @@
-# create new session if does not exists one, attach to it otherwise
+# create new session if does not exists one, attach to it otherwise.
 if [ "$TMUX" == "" ]; then
     tmux new-session -A -s main
 fi
