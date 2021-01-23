@@ -13,4 +13,5 @@ if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
 fi
 
 # lf uses it
-EDITOR=vim
+export VISUAL=vim
+export EDITOR=vim
