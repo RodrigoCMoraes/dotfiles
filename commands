@@ -1,8 +1,0 @@
-# dual monitor, external monitor left 
-xrandr --output eDP-1-1 --mode 1920x1080 --pos 1920x0 --output HDMI-0 --mode 1920x1080 --pos 0x
-
-# set caps lock as escape key
-xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
-
-# set keyboard map to us with dead keys
-setxkbmap -layout us -variant intl
