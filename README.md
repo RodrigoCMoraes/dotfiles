@@ -8,3 +8,7 @@ This repository contains some automation scripts to setup things on my PC.
 ```shell
 $ ./backup
 ```
+
+## Packages
+
+`packages` to install after the core of system is installed. They must be installed manually.
