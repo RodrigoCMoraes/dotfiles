@@ -1,0 +1,13 @@
+.config/i3/*
+.config/kitty/*
+.config/lf/*
+.config/chromium-flags.conf
+.config/icons
+.local/share/fonts/*
+.bash_profile
+.bashrc
+.gitconfig
+.inputrc
+.vimrc
+.xinitrc
+.xserverrc
