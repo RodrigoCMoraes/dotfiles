@@ -1,0 +1,18 @@
+bpytop          # resources monitor
+chromium        # browser
+i3-wm           # window manager
+ipython         # iteractive python shell
+kitty           # terminal emulator
+lf              # file manager
+openssh         # ssh connectivity tool
+p7zip           # compress/decompress tool
+pavucontrol     # gui to handle audio input/output
+peek            # gif tool
+python-black    # python code formater
+qpdfview        # pdf viewer
+reflector       # optimize mirrors for pacman
+spotify         # music client
+thunderbird     # email/rss/calendar tool
+vim             # text editor
+wget            # retrieve files using HTTP, etc
+xclip           # copy shell stdout to clipboard
