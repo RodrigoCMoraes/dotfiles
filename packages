@@ -1,6 +1,7 @@
 bpytop          # resources monitor
 chromium        # browser
 i3-wm           # window manager
+i3-lock         # locker
 ipython         # iteractive python shell
 kitty           # terminal emulator
 lf              # file manager
