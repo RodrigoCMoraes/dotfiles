@@ -1,7 +1,7 @@
 bpytop          # resources monitor
 chromium        # browser
-i3-wm           # window manager
 i3-lock         # locker
+i3-wm           # window manager
 ipython         # iteractive python shell
 kitty           # terminal emulator
 lf              # file manager
@@ -12,6 +12,7 @@ peek            # gif tool
 python-black    # python code formater
 qpdfview        # pdf viewer
 reflector       # optimize mirrors for pacman
+rofi            # window switcher, application launcher, etc...
 spotify         # music client
 thunderbird     # email/rss/calendar tool
 vim             # text editor
