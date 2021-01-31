@@ -12,7 +12,9 @@ nvidia          # gpu drivers
 openssh         # ssh connectivity tool
 p7zip           # compress/decompress tool
 pavucontrol     # gui to handle audio input/output
+pdftotext       # pdf text extraction
 peek            # gif tool
+pyenv           # python version switcher 
 qpdfview        # pdf viewer
 reflector       # optimize mirrors for pacman
 rofi            # window switcher, application launcher, etc...
