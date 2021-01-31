@@ -18,3 +18,6 @@ fi
 export VISUAL=vim
 export EDITOR=vim
 export PATH="$HOME/scripts/:$PATH"
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
