@@ -1,6 +1,7 @@
 bpytop          # resources monitor
 chromium        # browser
 flameshot       # print screen tool
+guvcview        # webcam settings
 i3-lock         # locker
 i3-wm           # window manager
 ipython         # iteractive python shell
