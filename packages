@@ -22,4 +22,4 @@ spotify         # music client
 thunderbird     # email/rss/calendar tool
 vim             # text editor
 xorg            # display server
-xorg-xranr      # cli to RandR (Resize and Rotation) extension 
+xorg-xrandr     # cli to RandR (Resize and Rotation) extension 
