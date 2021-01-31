@@ -1,20 +1,22 @@
 bpytop          # resources monitor
 chromium        # browser
+flameshot       # print screen tool
 i3-lock         # locker
 i3-wm           # window manager
 ipython         # iteractive python shell
+iwd             # wireless daemon
 kitty           # terminal emulator
 lf              # file manager
+nvidia          # gpu drivers
 openssh         # ssh connectivity tool
 p7zip           # compress/decompress tool
 pavucontrol     # gui to handle audio input/output
 peek            # gif tool
-python-black    # python code formater
 qpdfview        # pdf viewer
 reflector       # optimize mirrors for pacman
 rofi            # window switcher, application launcher, etc...
 spotify         # music client
 thunderbird     # email/rss/calendar tool
 vim             # text editor
-wget            # retrieve files using HTTP, etc
-xclip           # copy shell stdout to clipboard
+xorg            # display server
+xorg-xranr      # cli to RandR (Resize and Rotation) extension 
