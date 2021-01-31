@@ -3,3 +3,5 @@ set drawbox true
 set ratios 1:2:3
 set preview true
 set info size:time
+set previewer pv
+set cleaner preview-image
