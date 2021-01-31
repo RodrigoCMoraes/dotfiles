@@ -5,7 +5,13 @@ rsync \
     --include="*/" \
     --include-from='synced' \
     --exclude="*" \
+    --exclude=".pyenv" \
     $HOME/.[^.]* .
+
+rsync -avzPm $HOME/scripts .
+
+# TODO: add this to rsync
+rm -rf .pyenv
 
 # --include="*/"            => include all subdirectories
 # --include-from='synced'   => include all specific patterns

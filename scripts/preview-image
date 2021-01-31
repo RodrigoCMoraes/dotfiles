@@ -1,0 +1,17 @@
+#!/usr/bin/sh
+
+# ref: https://github.com/OliverLew/dotfiles/tree/master/lf
+
+ID="lf-preview"
+[ -p "$FIFO_UEBERZUG" ] || exit 1
+
+[ $# = 1 ] && cmd=clear
+case "${cmd:-$1}" in
+    "draw")
+        {   printf '{ "action": "add", "identifier": "%s", "path": "%s",' "$ID" "$2"
+            printf '"width": %d, "height": %d, "x": %d, "y": %d }\n' "$3" "$4" "$5" "$6"
+        } > "$FIFO_UEBERZUG" ;;
+    "clear")
+        printf '{ "action": "remove", "identifier": "%s" }\n' "$ID" > "$FIFO_UEBERZUG" ;;
+    "*") echo "Unknown command: '$1', '$2'" ;;
+esac
