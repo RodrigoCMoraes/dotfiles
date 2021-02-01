@@ -1,25 +1,26 @@
-bpytop          # resources monitor
-chromium        # browser
-flameshot       # print screen tool
-guvcview        # webcam settings
-i3-lock         # locker
-i3-wm           # window manager
-ipython         # iteractive python shell
-iwd             # wireless daemon
-kitty           # terminal emulator
-lf              # file manager
-nvidia          # gpu drivers
-openssh         # ssh connectivity tool
-p7zip           # compress/decompress tool
-pavucontrol     # gui to handle audio input/output
-pdftotext       # pdf text extraction
-peek            # gif tool
-pyenv           # python version switcher 
-qpdfview        # pdf viewer
-reflector       # optimize mirrors for pacman
-rofi            # window switcher, application launcher, etc...
-spotify         # music client
-thunderbird     # email/rss/calendar tool
-vim             # text editor
-xorg            # display server
-xorg-xrandr     # cli to RandR (Resize and Rotation) extension 
+bpytop                          # resources monitor
+chromium                        # browser
+flameshot                       # print screen tool
+guvcview                        # webcam settings
+i3-lock                         # locker
+i3-wm                           # window manager
+ipython                         # iteractive python shell
+iwd                             # wireless daemon
+kitty                           # terminal emulator
+lf                              # file manager
+nvidia                          # gpu drivers
+openssh                         # ssh connectivity tool
+p7zip                           # compress/decompress tool
+pavucontrol                     # gui to handle audio input/output
+pdftotext                       # pdf text extraction
+peek                            # gif tool
+pyenv                           # python version switcher 
+qpdfview                        # pdf viewer
+reflector                       # optimize mirrors for pacman
+rofi                            # window switcher, application launcher, etc...
+selectdefaultapplication-git    # define default applications for xdg-mime (xdg-open uses it)
+spotify                         # music client
+thunderbird                     # email/rss/calendar tool
+vim                             # text editor
+xorg                            # display server
+xorg-xrandr                     # cli to RandR (Resize and Rotation) extension 
