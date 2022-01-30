@@ -19,4 +19,4 @@ if [ -n "$DISPLAY" ] && command -v ueberzug > /dev/null; then
     trap stop_ueberzug EXIT QUIT INT TERM
     start_ueberzug
 fi
-/usr/bin/lf "$@"
+lf "$@"

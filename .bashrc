@@ -8,16 +8,18 @@
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
-if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
-  exec startx
-fi
+set -o vi
+alias ll="ls -la"
+alias c="vim ~/.bashrc"
+alias rc="source ~/.bashrc"
+alias cbspwm="vim ~/.config/bspwm/bspwmrc"
+alias csxhkd="vim ~/.config/sxhkd/sxhkdrc"
 
-[ -f "$HOME/.config/icons" ] && source "$HOME/.config/icons"
-
-# lf uses it
 export VISUAL=vim
 export EDITOR=vim
-export PATH="$HOME/scripts/:$PATH"
-export PATH="$HOME/.pyenv/bin:$PATH"
-eval "$(pyenv init -)"
-eval "$(pyenv virtualenv-init -)"
+export PATH=$PATH:/usr/local/go/bin:/$HOME/go/bin:$HOME/scripts/
+
+
+# BEGIN_KITTY_SHELL_INTEGRATION
+if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; then source "$KITTY_INSTALLATION_DIR/shell-integration/bash/kitty.bash"; fi
+# END_KITTY_SHELL_INTEGRATION

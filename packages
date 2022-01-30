@@ -1,13 +1,14 @@
 bpytop                          # resources monitor
+bspwm                           # window manager
+sxhkd                           # bspwm client
 chromium                        # browser
 flameshot                       # print screen tool
-guvcview                        # webcam settings
-i3-lock                         # locker
-i3-wm                           # window manager
+dmenu_shot                      # dmenu + flameshot
 ipython                         # iteractive python shell
 iwd                             # wireless daemon
 kitty                           # terminal emulator
 lf                              # file manager
+lxrandr                         # ui for xrandr
 mupdf                           # vim like pdf viewer
 nvidia                          # gpu drivers
 openssh                         # ssh connectivity tool
@@ -17,11 +18,12 @@ pdftotext                       # pdf text extraction
 peek                            # gif tool
 pyenv                           # python version switcher 
 reflector                       # optimize mirrors for pacman
-rofi                            # window switcher, application launcher, etc...
-selectdefaultapplication-git    # define default applications for xdg-mime (xdg-open uses it)
+rsync                           # directories syncronization tool
+dmenu                           # application launcher
 spotify                         # music client
 thunderbird                     # email/rss/calendar tool
 unclutter                       # hide idle mouse cursor
 vim                             # text editor
+xclip                           # clipboard tool for terminal
 xorg                            # display server
 xorg-xrandr                     # cli to RandR (Resize and Rotation) extension 
