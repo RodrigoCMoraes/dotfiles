@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+# ref: https://wiki.archlinux.org/title/backlight
+
+step=$1
+min=20
+dir="/sys/class/backlight/intel_backlight"
+max=$(<"$dir/max_brightness")
+actual=$(<"$dir/actual_brightness")
+
+brightness=$(( $actual + $step > $max ? $max: $actual + $step ))
+brightness=$(( $brightness < $min ? $min : $brightness ))
+
+echo $brightness > "$dir/brightness"

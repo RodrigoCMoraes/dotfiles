@@ -3,7 +3,7 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 # laptop
-bspc monitor eDP-1-1 -d V VI VII VIII 
+bspc monitor eDP-1-1 -d V VI VII VIII
 # external monitor
 bspc monitor HDMI-1-1 -d I II III IV
 
