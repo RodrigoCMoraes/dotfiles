@@ -1,7 +1,7 @@
 !! Colorscheme
 
 ! special
-*.foreground: #93a1a1
+*.foreground: #93e1e1
 *.background: #141c21
 *.cursorColor: #afbfbf
 
@@ -46,7 +46,13 @@ URxvt.cursorUnderline: false
 URxvt.saveline: 2048
 URxvt.scrollBar: false
 URxvt.scrollBar_right: false
-URxvt.depth: 24
+URxvt.depth: 32
+Xft*dpi: 96
+Xft*antialias: true
+Xft*hinting: full
+URxvt.transparent:   true
+URxvt.shading: 30
+urxvt*depth: 32
 
 !! Copy Paste & Other Extensions
 URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select

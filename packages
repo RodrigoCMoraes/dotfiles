@@ -1,4 +1,4 @@
-bpytop                          # resources monitor
+btop                            # resources monitor
 bspwm                           # window manager
 sxhkd                           # bspwm client
 chromium                        # browser

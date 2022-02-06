@@ -21,3 +21,4 @@ $ ./backup
     > `pg` stores third-party programs which needs to be compiled
 * `$HOME/scripts`
     > set of useful scripts
+* `$HOME/wallpapers`

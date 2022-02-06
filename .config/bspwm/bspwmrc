@@ -21,3 +21,7 @@ bspc rule -a Screenkey manage=off
 if [ -x /usr/bin/polybar ]; then
     bash $HOME/.config/polybar/launch.sh &
 fi
+
+if [ -d $HOME/wallpapers ]; then
+    feh --bg-center $(find $HOME/wallpapers -type f | shuf -n 1)
+fi
