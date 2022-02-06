@@ -7,8 +7,10 @@
 .config/chromium-flags.conf
 .config/kitty/*
 .config/lf/*
+.urxvt/*
 .gitconfig
 .local/share/fonts/*
 .vimrc
 .xinitrc
 .xserverrc
+.Xdefaults

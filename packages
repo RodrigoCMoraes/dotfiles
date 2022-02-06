@@ -6,7 +6,7 @@ flameshot                       # print screen tool
 dmenu_shot                      # dmenu + flameshot
 ipython                         # iteractive python shell
 iwd                             # wireless daemon
-kitty                           # terminal emulator
+urxvt                           # terminal emulator
 lf                              # file manager
 lxrandr                         # ui for xrandr
 mupdf                           # vim like pdf viewer
