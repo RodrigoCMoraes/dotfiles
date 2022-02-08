@@ -2,6 +2,7 @@ btop                            # resources monitor
 bspwm                           # window manager
 sxhkd                           # bspwm client
 chromium                        # browser
+feh                             # wallpaper too
 flameshot                       # print screen tool
 dmenu_shot                      # dmenu + flameshot
 ipython                         # iteractive python shell
@@ -21,6 +22,7 @@ reflector                       # optimize mirrors for pacman
 rsync                           # directories syncronization tool
 dmenu                           # application launcher
 spotify                         # music client
+svdc                            # english dictionary
 thunderbird                     # email/rss/calendar tool
 unclutter                       # hide idle mouse cursor
 vim                             # text editor
