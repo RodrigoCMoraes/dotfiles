@@ -22,3 +22,8 @@ $ ./backup
 * `$HOME/scripts`
     > set of useful scripts
 * `$HOME/wallpapers`
+
+## Power Management
+
+[Look at Arch Wiki Power Management](https://wiki.archlinux.org/title/Power_management)
+
