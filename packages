@@ -1,3 +1,4 @@
+bash-completion                 # loading completions automatically
 btop                            # resources monitor
 bspwm                           # window manager
 sxhkd                           # bspwm client
