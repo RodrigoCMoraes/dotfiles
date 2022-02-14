@@ -48,11 +48,10 @@ URxvt.scrollBar: false
 URxvt.scrollBar_right: false
 URxvt.depth: 32
 Xft*dpi: 96
-Xft*antialias: true
-Xft*hinting: full
 URxvt.transparent:   true
 URxvt.shading: 30
-urxvt*depth: 32
+urxvt*depth: 24
+Xft.antialias: 1
 
 !! Copy Paste & Other Extensions
 URxvt.perl-ext-common: default,clipboard,url-select,keyboard-select
