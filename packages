@@ -28,6 +28,7 @@ sdcv                            # english dictionary
 thunderbird                     # email/rss/calendar tool
 unclutter                       # hide idle mouse cursor
 vim                             # text editor
+tmux                            # terminal multiplexer
 xclip                           # clipboard tool for terminal
 xorg                            # display server
 xorg-xrandr                     # cli to RandR (Resize and Rotation) extension 
