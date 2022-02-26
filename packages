@@ -1,4 +1,5 @@
 bash-completion                 # loading completions automatically
+bat                             # cat clone colorful and integrated with git
 btop                            # resources monitor
 bspwm                           # window manager
 sxhkd                           # bspwm client
