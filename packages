@@ -32,6 +32,7 @@ spotify                         # music client
 sxhkd                           # bspwm client
 thunderbird                     # email/rss/calendar tool
 unclutter                       # hide idle mouse cursor
+q4vl2                           # Qt gui to preview webcam
 vim                             # text editor
 vscodium                        # oss vscode
 tmux                            # terminal multiplexer
