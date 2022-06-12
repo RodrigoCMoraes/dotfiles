@@ -33,6 +33,7 @@ sxhkd                           # bspwm client
 thunderbird                     # email/rss/calendar tool
 unclutter                       # hide idle mouse cursor
 vim                             # text editor
+vscodium                        # oss vscode
 tmux                            # terminal multiplexer
 xclip                           # clipboard tool for terminal
 xorg                            # display server
