@@ -4,6 +4,8 @@ btop                            # resources monitor
 bspwm                           # window manager, deps: libxcb, xcb-util xcb-util-wm xcb-util-keysyms
 chromium                        # browser
 dhcpcd                          # dhcp daemon
+diff-so-fancy                   # better diff for git + integration with actual linux diff
+dmenu                           # application launcher
 feh                             # wallpaper too
 flameshot                       # print screen tool
 dmenu_shot                      # dmenu + flameshot
@@ -21,10 +23,10 @@ pavucontrol                     # gui to handle audio input/output, deps: pulsea
 pdftotext                       # pdf text extraction
 peek                            # gif tool
 polybar                         # tool to manage status bar
+prettyping                      # tool to better view latency and packets lost
 pyenv                           # python version switcher 
 reflector                       # optimize mirrors for pacman
 rsync                           # directories syncronization tool
-dmenu                           # application launcher
 sdcv                            # english dictionary
 spotify                         # music client
 sxhkd                           # bspwm client
