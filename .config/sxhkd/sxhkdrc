@@ -6,10 +6,6 @@
 super + {r, R}
     bspc node @/ -R {-90, 90}
 
-# change brightness
-super + {b, B}
-    bright {-15, 15}
-
 # terminal emulator
 super + Return
 	urxvt

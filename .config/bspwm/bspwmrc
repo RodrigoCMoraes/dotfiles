@@ -2,10 +2,8 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-# laptop
-bspc monitor eDP-1-1 -d V VI VII VIII
-# external monitor
-bspc monitor HDMI-1-1 -d I II III IV
+# desktop
+bspc monitor HDMI-1 -d I II III IV V VI
 
 bspc config border_width         1
 bspc config window_gap           5

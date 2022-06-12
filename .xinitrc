@@ -30,13 +30,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-# enable nvidia driver
-xrandr --setprovideroutputsource modesetting NVIDIA-0
-xrandr --auto
-
-# if it dual monitor get the config from lxrandr
-is_dual_monitor=$(xrandr -q | grep 'HDMI')
-if [[ "$is_dual_monitor" == *connected* ]]; then
+if [ -f $HOME/.config/autostart/lxrandr-autostart.desktop ]; then
     grep -o "'.*'" $HOME/.config/autostart/lxrandr-autostart.desktop | sed "s/'//g" | sh &
 fi
 
