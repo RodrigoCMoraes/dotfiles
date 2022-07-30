@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "syncing files from 'synced'"
 rsync \
     -avzPm \
     --include="*/" \
@@ -7,6 +8,7 @@ rsync \
     --exclude="*" \
     $HOME/.[^.]* .
 
+echo "syncing files from 'scripts'"
 rsync -avzPm $HOME/scripts .
 
 # .pyenv/.vimrc syncs due to .vimrc on synced file
