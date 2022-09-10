@@ -35,6 +35,7 @@ thunderbird                     # email/rss/calendar tool
 unclutter                       # hide idle mouse cursor
 q4vl2                           # Qt gui to preview webcam
 vim                             # text editor
+amdvlk                          # vulkan driver for AMD
 vscodium                        # oss vscode
 tmux                            # terminal multiplexer
 xclip                           # clipboard tool for terminal
