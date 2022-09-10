@@ -9,6 +9,7 @@ dmenu                           # application launcher
 feh                             # wallpaper too
 flameshot                       # print screen tool
 dmenu_shot                      # dmenu + flameshot
+imwheel                         # set whell speed
 ipython                         # iteractive python shell
 iwd                             # wireless daemon
 urxvt                           # terminal emulator

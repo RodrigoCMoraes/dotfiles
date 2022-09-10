@@ -35,13 +35,16 @@ if [ -f $HOME/.config/autostart/lxrandr-autostart.desktop ]; then
 fi
 
 # set keyboard layout where capslock is escape key
-setxkbmap -layout us -variant altgr-intl -option caps:escape
+setxkbmap -layout us -variant altgr-intl -option caps:escape &
 
 # Prepend a custom font path to Xorg's list of known font paths
-xset +fp $HOME/.local/share/fonts
+xset +fp $HOME/.local/share/fonts &
 
 # set a typematic delay to 180ms and a typematic rate to 60Hz
-xset r rate 200 60
+xset r rate 200 60 &
+
+# set mouse acceleration (config at: $HOME/.imwheelrc 4 is for Up scroll, 5 for Down scroll)
+imwheel -b 45 &
 
 # hide mouse pointer when it is unused
 unclutter &
