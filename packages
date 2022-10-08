@@ -32,6 +32,7 @@ sdcv                            # english dictionary
 spotify                         # music client
 sxhkd                           # bspwm client
 thunderbird                     # email/rss/calendar tool
+ttf-anonymous-pro               # font focused in programming
 unclutter                       # hide idle mouse cursor
 q4vl2                           # Qt gui to preview webcam
 vim                             # text editor

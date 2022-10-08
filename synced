@@ -9,7 +9,6 @@
 .urxvt/*
 .gitconfig
 .imwheelrc
-.local/share/fonts/*
 .vimrc
 .tmux.conf
 .xinitrc
