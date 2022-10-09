@@ -31,3 +31,7 @@ export PATH=$PATH:/usr/local/go/bin:/$HOME/go/bin:$HOME/scripts/:$HOME/.local/bi
 # Use bash-completion, if available
 [[ $PS1 && -f /usr/share/bash-completion/bash_completion ]] && \
     . /usr/share/bash-completion/bash_completion
+
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
