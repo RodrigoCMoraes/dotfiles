@@ -17,6 +17,8 @@ Plug 'davidhalter/jedi-vim'
 
 call plug#end()
 
+"NERDTree start
+
 " Mirror the NERDTree before showing it. This makes it the same on all tabs.
 nnoremap <C-n> :NERDTreeMirror<CR>:NERDTreeFocus<CR>
 
@@ -28,3 +30,13 @@ autocmd VimEnter * NERDTree | wincmd p
 
 " Close the tab if NERDTree is the only window remaining in it.
 autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+
+"NERDTree end
+
+"vim-jedi start
+let g:jedi#goto_command = "<leader>d"             " goto to definition
+let g:jedi#goto_assignments_command = "<leader>g" " goto to function
+let g:jedi#documentation_command = "K"            " show pydoc
+let g:jedi#usages_command = "<leader>n"           " show usages of object
+let g:jedi#completions_command = "<C-Space>"      " show completions
+"vim-jedi end
