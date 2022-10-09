@@ -6,16 +6,20 @@ chromium                        # browser
 dhcpcd                          # dhcp daemon
 diff-so-fancy                   # better diff for git + integration with actual linux diff
 dmenu                           # application launcher
+dmenu_shot                      # dmenu + flameshot
 feh                             # wallpaper too
 flameshot                       # print screen tool
-dmenu_shot                      # dmenu + flameshot
+helm                            # kubernetes applications manager
 imwheel                         # set whell speed
 ipython                         # iteractive python shell
 iwd                             # wireless daemon
 urxvt                           # terminal emulator
+k9s                             # kubernetes cluster manager tool
+kubectl                         # kubernetes cli
 lf                              # file manager
 lxrandr                         # ui for xrandr
 man-db                          # linux manuals
+minikube                        # local kubernetes cluster
 mupdf                           # vim like pdf viewer
 nvidia                          # gpu drivers
 openssh                         # ssh connectivity tool
@@ -23,6 +27,7 @@ p7zip                           # compress/decompress tool
 pavucontrol                     # gui to handle audio input/output, deps: pulseaudio, pulseaudio-alsa
 pdftotext                       # pdf text extraction
 peek                            # gif tool
+podman                          # manage OCI containers and images
 polybar                         # tool to manage status bar
 prettyping                      # tool to better view latency and packets lost
 pyenv                           # python version switcher 
