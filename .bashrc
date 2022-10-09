@@ -10,18 +10,19 @@ PS1='[\u@\h \W]\$ '
 
 set -o vi
 alias ll="ls -ilha"
-alias c="vim ~/.bashrc"
-alias rc="source ~/.bashrc"
-alias cbspwm="vim ~/.config/bspwm/bspwmrc"
-alias csxhkd="vim ~/.config/sxhkd/sxhkdrc"
-alias cvim="vim ~/.vimrc"
+alias c="vim $HOME/.bashrc"
+alias rc="source $HOME/.bashrc"
+alias cbspwm="vim $HOME/.config/bspwm/bspwmrc"
+alias csxhkd="vim $HOME/.config/sxhkd/sxhkdrc"
+alias cvim="vim $HOME/.vimrc"
 alias k="kubectl"
 alias diff="diff --color=auto"
 alias grep="grep --color=auto"
 alias ip="ip -color=auto"
 alias ls="ls --color=auto"
-alias pg="cd $HOME/pg/"
-alias dotfiles="cd $HOME/code/dotfiles/"
+alias gprograms="cd $HOME/pg/"
+alias gdotfiles="cd $HOME/code/dotfiles/"
+alias gcode="cd $HOME/code/"
 
 export MANPAGER="less -R --use-color -Dd+r -Du+b"
 export LESS='-R --use-color -Dd+r$Du+b'
