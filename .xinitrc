@@ -35,7 +35,7 @@ if [ -f $HOME/.config/autostart/lxrandr-autostart.desktop ]; then
 fi
 
 # set keyboard layout where capslock is escape key
-setxkbmap -layout us -variant altgr-intl -option caps:escape &
+setxkbmap -layout us -variant alt-intl -option caps:escape &
 
 # set a typematic delay to 180ms and a typematic rate to 60Hz
 xset r rate 200 60 &
