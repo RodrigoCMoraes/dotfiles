@@ -45,5 +45,6 @@ imwheel -b 45 &
 
 # hide mouse pointer when it is unused
 unclutter &
+sleep 0.5
 # start bspwm
 exec bspwm
