@@ -23,6 +23,8 @@ alias ls="ls --color=auto"
 alias gprograms="cd $HOME/pg/"
 alias gdotfiles="cd $HOME/code/dotfiles/"
 alias gcode="cd $HOME/code/"
+alias pbcopy="xsel --clipboard --input"
+alias pbpaste="xsel --clipboard --output"
 
 export MANPAGER="less -R --use-color -Dd+r -Du+b"
 export LESS='-R --use-color -Dd+r$Du+b'

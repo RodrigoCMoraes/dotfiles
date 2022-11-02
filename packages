@@ -50,3 +50,4 @@ tmux                            # terminal multiplexer
 xclip                           # clipboard tool for terminal
 xorg                            # display server
 xorg-xrandr                     # cli to RandR (Resize and Rotation) extension 
+xsel                            # manipulate x selection (I use to copy/paste terminal in/out)
