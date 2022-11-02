@@ -9,12 +9,14 @@ dmenu                           # application launcher
 dmenu_shot                      # dmenu + flameshot
 feh                             # wallpaper too
 flameshot                       # print screen tool
+gh                              # github cli
 helm                            # kubernetes applications manager
 imwheel                         # set whell speed
 ipython                         # iteractive python shell
 iwd                             # wireless daemon
 urxvt                           # terminal emulator
 k9s                             # kubernetes cluster manager tool
+kb                              # minimalist knowledge base manager
 kubectl                         # kubernetes cli
 lf                              # file manager
 lxrandr                         # ui for xrandr
