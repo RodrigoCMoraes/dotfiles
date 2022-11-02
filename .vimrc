@@ -34,6 +34,7 @@ autocmd BufEnter * if winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTa
 "NERDTree end
 
 "vim-jedi start
+let g:jedi#completions_enabled = 0                " disable when not needed
 let g:jedi#goto_command = "<leader>d"             " goto to definition
 let g:jedi#goto_assignments_command = "<leader>g" " goto to function
 let g:jedi#documentation_command = "K"            " show pydoc
